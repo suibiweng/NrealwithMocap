@@ -11,8 +11,10 @@ public class RecivePosition : MonoBehaviour
     public bool islocalposition , isOringin;
 
     Vector3 recivedPosition;
+    Quaternion recivedRotation;
 
     public Transform anchor;
+    public PlaceOrigin orignin;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,8 @@ public class RecivePosition : MonoBehaviour
         osc.SetAddressHandler( "/"+Objname , OnReceivePos );
 
         anchor=GameObject.FindGameObjectWithTag("Anchor").transform;
+        if(isOringin)orignin = GameObject.FindObjectOfType<PlaceOrigin>();
+
 
     }
 
@@ -36,12 +40,7 @@ public class RecivePosition : MonoBehaviour
 
   
 		recivedPosition = new Vector3(x,y,z);
-      
-
-    
-
-
-        transform.rotation=Quaternion.Euler(rx,ry,rz);
+        recivedRotation = Quaternion.Euler(rx,ry,rz);
 
     }
 
@@ -52,8 +51,8 @@ public class RecivePosition : MonoBehaviour
 
         if(isOringin){
 
-                transform.position=recivedPosition-anchor.position;
-
+            transform.position = (recivedPosition-anchor.position);
+            transform.rotation = recivedRotation;
         }
         else{
 
@@ -65,7 +64,7 @@ public class RecivePosition : MonoBehaviour
                     transform.localPosition=recivedPosition;
                 }
 
-
+            transform.rotation = recivedRotation;
 
 
         }

@@ -2,9 +2,45 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using NRKernal;
-
+using UnityEngine.UI;
 public class PlaceOrigin : MonoBehaviour
 {
+
+    public Toggle Tlock;
+
+
+    public  bool isLock;
+
+
+    public Vector3 offestPosition;
+    public Vector3 offestRotation;
+
+    public float offset = 0.01f;
+
+
+
+        public void setPostion(string dir) {
+
+         switch (dir) {
+            case "w":
+                offestPosition += new Vector3(0, 0, offset);
+                break;
+            case "a":
+                offestPosition -= new Vector3(offset, 0, 0);
+                break;
+            case "s":
+                offestPosition -= new Vector3(0, 0, offset);
+                break;
+            case "d":
+                offestPosition += new Vector3(offset, 0, 0);
+                break;
+        }
+
+        AnChor.position += offestPosition;
+    }    
+
+
+
  
         /// <summary> A model to place when a raycast from a user touch hits a plane. </summary>
         public Transform AnChor;
@@ -12,8 +48,16 @@ public class PlaceOrigin : MonoBehaviour
         /// <summary> Updates this object. </summary>
         void Update()
         {
-            // If the player doesn't click the trigger button, we are done with this update.
-            if (!NRInput.GetButtonDown(ControllerButton.TRIGGER))
+
+
+
+        isLock = Tlock.isOn;
+
+
+           
+
+        // If the player doesn't click the trigger button, we are done with this update.
+        if (!NRInput.GetButtonDown(ControllerButton.TRIGGER))
             {
                 return;
             }
@@ -27,18 +71,26 @@ public class PlaceOrigin : MonoBehaviour
             {
                 if (hitResult.collider.gameObject != null && hitResult.collider.gameObject.GetComponent<NRTrackableBehaviour>() != null)
                 {
-                    var behaviour = hitResult.collider.gameObject.GetComponent<NRTrackableBehaviour>();
+
+           
+                var behaviour = hitResult.collider.gameObject.GetComponent<NRTrackableBehaviour>();
                     if (behaviour.Trackable.GetTrackableType() != TrackableType.TRACKABLE_PLANE)
                     {
                         return;
                     }
 
-                    AnChor.position= hitResult.point;
-
+                if (!isLock) {
+                    AnChor.position = hitResult.point;
+                    isLock = true;
+                    Tlock.isOn = isLock;
+                }
                     // Instantiate Andy model at the hit point / compensate for the hit point rotation.
                    // Instantiate(AndyPlanePrefab, hitResult.point, Quaternion.identity, behaviour.transform);
                 }
             }
+
+
+
         }
         
 }
