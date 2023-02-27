@@ -5,9 +5,9 @@ INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj
 INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 MERGED from [:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-85:12
-MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:2:1-22:12
-MERGED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:2:1-19:12
-MERGED from [:nrvirtualcontroller:] /Users/apple/.gradle/caches/transforms-2/files-2.1/84ced733f125fd8af20d7c362b8376b9/nrvirtualcontroller/AndroidManifest.xml:2:1-11:12
+MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:2:1-22:12
+MERGED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:2:1-19:12
+MERGED from [:nrvirtualcontroller:] /Users/apple/.gradle/caches/transforms-2/files-2.1/60318e9e28ad144b93de5a50c913646b/nrvirtualcontroller/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
 INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:2:1-5:12
@@ -47,8 +47,8 @@ application
 ADDED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
 MERGED from [:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:5-83:19
 MERGED from [:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:5-83:19
-MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:14:5-20:19
-MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:14:5-20:19
+MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:14:5-20:19
+MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:14:5-20:19
 	android:extractNativeLibs
 		ADDED from [:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-41
 	android:label
@@ -63,12 +63,12 @@ INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj
 INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 MERGED from [:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-12:57
 MERGED from [:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-12:57
-MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:8:5-10:41
-MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:8:5-10:41
-MERGED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:7:5-9:41
-MERGED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:7:5-9:41
-MERGED from [:nrvirtualcontroller:] /Users/apple/.gradle/caches/transforms-2/files-2.1/84ced733f125fd8af20d7c362b8376b9/nrvirtualcontroller/AndroidManifest.xml:7:5-9:41
-MERGED from [:nrvirtualcontroller:] /Users/apple/.gradle/caches/transforms-2/files-2.1/84ced733f125fd8af20d7c362b8376b9/nrvirtualcontroller/AndroidManifest.xml:7:5-9:41
+MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:8:5-10:41
+MERGED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:8:5-10:41
+MERGED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:7:5-9:41
+MERGED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:7:5-9:41
+MERGED from [:nrvirtualcontroller:] /Users/apple/.gradle/caches/transforms-2/files-2.1/60318e9e28ad144b93de5a50c913646b/nrvirtualcontroller/AndroidManifest.xml:7:5-9:41
+MERGED from [:nrvirtualcontroller:] /Users/apple/.gradle/caches/transforms-2/files-2.1/60318e9e28ad144b93de5a50c913646b/nrvirtualcontroller/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 INJECTED from /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
 	tools:overrideLibrary
@@ -192,28 +192,28 @@ ADDED from [:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Be
 	android:name
 		ADDED from [:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:81:13-40
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:12:5-77
+ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:12:5-77
 	android:name
-		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:12:22-74
+		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:12:22-74
 service#ai.nreal.sdk.MediaProjectionService
-ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:15:9-19:63
+ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:15:9-19:63
 	android:enabled
-		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:17:13-35
+		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:17:13-35
 	android:exported
-		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:18:13-36
+		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:18:13-36
 	android:foregroundServiceType
-		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:19:13-60
+		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:19:13-60
 	android:name
-		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:16:13-63
+		ADDED from [:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:16:13-63
 queries
-ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:11:5-15:15
+ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:11:5-15:15
 intent
-ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:12:9-14:18
+ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:12:9-14:18
 action#ai.nreal.nrsdk.network.type.server
-ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:13:13-73
+ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:13:13-73
 	android:name
-		ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:13:21-70
+		ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:13:21-70
 uses-permission#android.permission.HIGH_SAMPLING_RATE_SENSORS
-ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:17:5-85
+ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:17:5-85
 	android:name
-		ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:17:22-82
+		ADDED from [:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:17:22-82

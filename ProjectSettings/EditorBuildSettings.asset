@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scripts/ObjAnchor.unity
+    path: Assets/Scenes/ObjAnchor.unity
     guid: 54770bfd114ad4248984aea3ac529cad
   - enabled: 1
     path: Assets/Scenes/ObjTrack.unity

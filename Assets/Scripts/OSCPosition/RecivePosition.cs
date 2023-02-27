@@ -15,6 +15,7 @@ public class RecivePosition : MonoBehaviour
 
     public Transform anchor;
     public PlaceOrigin orignin;
+    public Transform origninPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -51,13 +52,13 @@ public class RecivePosition : MonoBehaviour
 
         if(isOringin){
 
-            transform.position = (recivedPosition-anchor.position);
+            transform.position = anchor.position;
             transform.rotation = recivedRotation;
         }
         else{
 
                 if(!islocalposition){
-                    transform.position=recivedPosition;
+                    transform.position=recivedPosition-origninPoint.position;
 
                 }else{
 

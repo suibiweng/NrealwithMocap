@@ -62,22 +62,22 @@
 35-->[:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-33
 36
 37    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-37-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:12:5-77
-37-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:12:22-74
+37-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:12:5-77
+37-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:12:22-74
 38
 39    <queries>
-39-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:11:5-15:15
+39-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:11:5-15:15
 40        <intent>
-40-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:12:9-14:18
+40-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:12:9-14:18
 41            <action android:name="ai.nreal.nrsdk.network.type.server" />
-41-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:13:13-73
-41-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:13:21-70
+41-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:13:13-73
+41-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:13:21-70
 42        </intent>
 43    </queries>
 44
 45    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
-45-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:17:5-85
-45-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c32ad925570fe082c10bc9e4ee619bd/nr_api/AndroidManifest.xml:17:22-82
+45-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:17:5-85
+45-->[:nr_api:] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c53bb2f8b5e9bfc703972ebad0681bf/nr_api/AndroidManifest.xml:17:22-82
 46
 47    <application
 47-->/Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
@@ -166,15 +166,15 @@
 90-->[:unityLibrary] /Users/apple/Desktop/MyWork/NrealwithMocap/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:82:13-47
 91
 92        <service
-92-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:15:9-19:63
+92-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:15:9-19:63
 93            android:name="ai.nreal.sdk.MediaProjectionService"
-93-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:16:13-63
+93-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:16:13-63
 94            android:enabled="true"
-94-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:17:13-35
+94-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:17:13-35
 95            android:exported="true"
-95-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:18:13-36
+95-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:18:13-36
 96            android:foregroundServiceType="mediaProjection" />
-96-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/b0a94ddee91b40dbe508e517c9f9563d/nrunityandroidpermission/AndroidManifest.xml:19:13-60
+96-->[:nrunityandroidpermission:] /Users/apple/.gradle/caches/transforms-2/files-2.1/2688ca9cbad84fb1edefa0cff5569472/nrunityandroidpermission/AndroidManifest.xml:19:13-60
 97    </application>
 98
 99</manifest>

@@ -45,6 +45,7 @@
      <Compile Include="Assets/Qualisys/QTM-Unity-Realtime-Streaming/Helpers/RTClient.cs" />
      <Compile Include="Assets/Qualisys/QTM-Unity-Realtime-Streaming/RTClientSDK.Net/RTNetwork.cs" />
      <Compile Include="Assets/Qualisys/QTM-Unity-Realtime-Streaming/Streaming/RTUnlabeledMarker.cs" />
+     <Compile Include="Assets/Scripts/PlaceOrigin.cs" />
      <Compile Include="Assets/Qualisys/DemoAssets/UI/ServerButton.cs" />
      <Compile Include="Assets/UnityOSC/SendPositionOnUpdate.cs" />
      <Compile Include="Assets/Qualisys/DemoAssets/UI/CreateScrollList.cs" />
@@ -80,7 +81,6 @@
      <Compile Include="Assets/Qualisys/QTM-Unity-Realtime-Streaming/Streaming/RTSkeleton.cs" />
      <Compile Include="Assets/Qualisys/QTM-Unity-Realtime-Streaming/Helpers/RTGUI.cs" />
      <Compile Include="Assets/Qualisys/QTM-Unity-Realtime-Streaming/RTClientSDK.Net/TimecodeExtensions.cs" />
-     <Compile Include="Assets/Scripts/PlaceOrigin.cs" />
      <None Include="Assets/csc.rsp" />
      <None Include="Assets/mcs.rsp" />
      <None Include="Assets/Qualisys/DemoAssets/ArrowShader.shader" />

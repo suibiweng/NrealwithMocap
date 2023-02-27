@@ -74,13 +74,16 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   serializedClasses:
     NRSDK:
     - NRKernal.NRExamples.HandModelsManager/HandModelsGroup
     - NRKernal.NRNotificationWindow/NotificationInfo
     - NRKernal.NRTrackingImageDatabaseEntry
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.RectOffset
     UnityEngine.UI:
     - UnityEngine.UI.AnimationTriggers
@@ -90,8 +93,184 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
-  methodsToPreserve: []
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: PlaceOrigin
+    methodName: setPostion
+  - assembly: Assembly-CSharp
+    fullTypeName: PlaceOrigin
+    methodName: setPostion
+  - assembly: Assembly-CSharp
+    fullTypeName: PlaceOrigin
+    methodName: setPostion
+  - assembly: Assembly-CSharp
+    fullTypeName: PlaceOrigin
+    methodName: setPostion
   sceneClasses:
+    Assets/Scenes/ObjAnchor.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 1584}
+    - Class: 114
+      Script: {instanceID: 1586}
+    - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
+      Script: {instanceID: 1592}
+    - Class: 114
+      Script: {instanceID: 1652}
+    - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 1986}
+    - Class: 114
+      Script: {instanceID: 2532}
+    - Class: 114
+      Script: {instanceID: 2702}
+    - Class: 114
+      Script: {instanceID: 2772}
+    - Class: 114
+      Script: {instanceID: 2822}
+    - Class: 114
+      Script: {instanceID: 2906}
+    - Class: 114
+      Script: {instanceID: 3368}
+    - Class: 114
+      Script: {instanceID: 3380}
+    - Class: 114
+      Script: {instanceID: 3406}
+    - Class: 114
+      Script: {instanceID: 3440}
+    - Class: 114
+      Script: {instanceID: 3612}
+    - Class: 114
+      Script: {instanceID: 3802}
+    - Class: 114
+      Script: {instanceID: 3970}
+    - Class: 114
+      Script: {instanceID: 3994}
+    - Class: 114
+      Script: {instanceID: 4006}
+    - Class: 114
+      Script: {instanceID: 4064}
+    - Class: 114
+      Script: {instanceID: 4510}
+    - Class: 114
+      Script: {instanceID: 4622}
+    - Class: 114
+      Script: {instanceID: 4700}
+    - Class: 114
+      Script: {instanceID: 4884}
+    - Class: 114
+      Script: {instanceID: 4940}
+    - Class: 114
+      Script: {instanceID: 5046}
+    - Class: 114
+      Script: {instanceID: 5124}
+    - Class: 114
+      Script: {instanceID: 5142}
+    - Class: 114
+      Script: {instanceID: 5326}
+    - Class: 114
+      Script: {instanceID: 5426}
+    - Class: 114
+      Script: {instanceID: 5576}
+    - Class: 114
+      Script: {instanceID: 5656}
+    - Class: 114
+      Script: {instanceID: 5680}
+    - Class: 114
+      Script: {instanceID: 5884}
+    - Class: 114
+      Script: {instanceID: 6032}
+    - Class: 114
+      Script: {instanceID: 6124}
+    - Class: 114
+      Script: {instanceID: 6406}
+    - Class: 114
+      Script: {instanceID: 6586}
+    - Class: 114
+      Script: {instanceID: 6812}
+    - Class: 114
+      Script: {instanceID: 6900}
+    - Class: 114
+      Script: {instanceID: 7258}
+    - Class: 114
+      Script: {instanceID: 8062}
+    - Class: 114
+      Script: {instanceID: 8502}
+    - Class: 114
+      Script: {instanceID: 8614}
+    - Class: 114
+      Script: {instanceID: 8756}
+    - Class: 114
+      Script: {instanceID: 8850}
+    - Class: 114
+      Script: {instanceID: 8976}
+    - Class: 114
+      Script: {instanceID: 9042}
+    - Class: 114
+      Script: {instanceID: 9062}
+    - Class: 114
+      Script: {instanceID: 32184}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
     Assets/Scenes/ObjTrack.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -220,167 +399,6 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 137
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    - Class: 850595691
-      Script: {instanceID: 0}
-    Assets/Scripts/ObjAnchor.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1582}
-    - Class: 114
-      Script: {instanceID: 1584}
-    - Class: 114
-      Script: {instanceID: 1586}
-    - Class: 114
-      Script: {instanceID: 1590}
-    - Class: 114
-      Script: {instanceID: 1592}
-    - Class: 114
-      Script: {instanceID: 1652}
-    - Class: 114
-      Script: {instanceID: 1658}
-    - Class: 114
-      Script: {instanceID: 1872}
-    - Class: 114
-      Script: {instanceID: 1986}
-    - Class: 114
-      Script: {instanceID: 2532}
-    - Class: 114
-      Script: {instanceID: 2702}
-    - Class: 114
-      Script: {instanceID: 2772}
-    - Class: 114
-      Script: {instanceID: 2822}
-    - Class: 114
-      Script: {instanceID: 2906}
-    - Class: 114
-      Script: {instanceID: 3368}
-    - Class: 114
-      Script: {instanceID: 3380}
-    - Class: 114
-      Script: {instanceID: 3406}
-    - Class: 114
-      Script: {instanceID: 3440}
-    - Class: 114
-      Script: {instanceID: 3612}
-    - Class: 114
-      Script: {instanceID: 3802}
-    - Class: 114
-      Script: {instanceID: 3970}
-    - Class: 114
-      Script: {instanceID: 3994}
-    - Class: 114
-      Script: {instanceID: 4006}
-    - Class: 114
-      Script: {instanceID: 4064}
-    - Class: 114
-      Script: {instanceID: 4510}
-    - Class: 114
-      Script: {instanceID: 4622}
-    - Class: 114
-      Script: {instanceID: 4700}
-    - Class: 114
-      Script: {instanceID: 4884}
-    - Class: 114
-      Script: {instanceID: 4940}
-    - Class: 114
-      Script: {instanceID: 5046}
-    - Class: 114
-      Script: {instanceID: 5124}
-    - Class: 114
-      Script: {instanceID: 5142}
-    - Class: 114
-      Script: {instanceID: 5326}
-    - Class: 114
-      Script: {instanceID: 5426}
-    - Class: 114
-      Script: {instanceID: 5656}
-    - Class: 114
-      Script: {instanceID: 5680}
-    - Class: 114
-      Script: {instanceID: 5884}
-    - Class: 114
-      Script: {instanceID: 6032}
-    - Class: 114
-      Script: {instanceID: 6124}
-    - Class: 114
-      Script: {instanceID: 6406}
-    - Class: 114
-      Script: {instanceID: 6586}
-    - Class: 114
-      Script: {instanceID: 6812}
-    - Class: 114
-      Script: {instanceID: 6900}
-    - Class: 114
-      Script: {instanceID: 7258}
-    - Class: 114
-      Script: {instanceID: 8062}
-    - Class: 114
-      Script: {instanceID: 8502}
-    - Class: 114
-      Script: {instanceID: 8614}
-    - Class: 114
-      Script: {instanceID: 8756}
-    - Class: 114
-      Script: {instanceID: 8850}
-    - Class: 114
-      Script: {instanceID: 8976}
-    - Class: 114
-      Script: {instanceID: 9042}
-    - Class: 114
-      Script: {instanceID: 9062}
-    - Class: 114
-      Script: {instanceID: 32184}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1453,7 +1471,7 @@ ScriptsOnlyBuild:
     className: NRHand
   - hash:
       serializedVersion: 2
-      Hash: 6e64ee1502e6a645ca8cad106360eb38
+      Hash: 72e06c1b25010ab7234c4bcf73819583
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RecivePosition
@@ -2065,12 +2083,12 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 53a74692dd02682d0a368c49f31256a4
+      Hash: 7a0a7ae7984edb3860b2adf2898ad6ec
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlaceOrigin
   platform: 13
   scenePathNames:
-  - Assets/Scripts/ObjAnchor.unity
+  - Assets/Scenes/ObjAnchor.unity
   - Assets/Scenes/ObjTrack.unity
   playerPath: /Users/apple/Desktop/MyWork/NrealwithMocap/123.apk
